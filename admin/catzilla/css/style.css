@@ -1,0 +1,132 @@
+@media (min-width: 992px) {
+  container {
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 100% !important;
+  }
+}
+
+.container {
+  max-width: 1250px !important;
+}
+.iconsec i {
+  background: darkslategray;
+}
+
+i.fa.fa-shopping-cart {
+  background: rgb(0, 0, 0, 0.1);
+}
+input.form-control.me-2 {
+  width: 637px;
+}
+img.imgs {
+  width: 23px;
+}
+i.fa.fa-search {
+  z-index: 999;
+}
+
+span.position-absolute.top-0.p-2.start-99.badge.rounded-circle.bg-danger {
+  width: 27px;
+  left: 38px;
+  font-size: xx-small;
+  background-color: #fe696a !important;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: red !important;
+  background-color: white !important;
+}
+
+.row.skyclr {
+  background: #3aafd2 !important;
+}
+
+.row.brclr {
+  background: #f5b1b0;
+}
+.row.pinkclr {
+  background: #e29d6c;
+}
+
+i.p-2.me-1.rounded.fa.fa-twitter:hover {
+  color: deepskyblue;
+  background: white;
+  transition: background-color 0.25s ease-in-out, color 0.25s ease-in-out;
+}
+i.p-2.me-1.rounded.fa.fa-facebook:hover {
+  color: blue;
+  background: white;
+  transition: background-color 0.25s ease-in-out, color 0.25s ease-in-out;
+}
+i.p-2.me-1.rounded.fa.fa-instagram:hover {
+  color: #8a3ab9;
+  background: white;
+  transition: background-color 0.25s ease-in-out, color 0.25s ease-in-out;
+}
+
+i.p-2.me-1.rounded.fa.fa-pinterest:hover {
+  color: red;
+  background: white;
+  transition: background-color 0.25s ease-in-out, color 0.25s ease-in-out;
+}
+i.p-2.me-1.rounded.fa.fa-youtube-play:hover {
+  color: red;
+  background: white;
+  transition: background-color 0.25s ease-in-out, color 0.25s ease-in-out;
+}
+
+a.fw-bold.small.text-decoration-none.text-muted {
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+}
+.lightpink {
+  background: #fff1f2;
+}
+.circle {
+  width: 32px;
+}
+.mt-2.w-100.text-sm-start.justify-content-center {
+  font-size: smaller;
+}
+.text-start.carousel-inner {
+  position: relative;
+}
+
+.arrow1 {
+  position: absolute;
+  transform: translateX(0px);
+}
+.row.skyclr {
+  position: relative;
+}
+.row.skyclr:hover .arrow1 {
+  transform: translateX(-8);
+  transition: 0.3s;
+}
+
+.carousel:hover .arrow1 {
+  position: absolute;
+  transform: translateX(-7px);
+}
+.carousel:hover .arrow2 {
+  transform: translateX(7px);
+}
+.arrow1 {
+  background: white;
+  color: black;
+}
+.arrow2 {
+  background: white;
+  color: black;
+}
+
+.row.flex-wrap.skyclr {
+  padding: 0 66px;
+}
